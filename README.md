@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="volt-logo.png" alt="Volt logo" width="160">
+</p>
+
 # Volt
 
 **Volt** is a compiled programming language with Python-like syntax, built for programming Arduino boards and hardware modules directly. Instead of writing Arduino sketches in C++, Volt lets you write clean, indentation-based code that compiles down to C and then to a real binary flashed onto your board — no interpreter, no runtime overhead.
@@ -42,8 +46,8 @@ There are two ways to use Volt: compiling the `voltc` compiler yourself, or inst
 
 ```bash
 # Clone the repository
-git clone https://github.com/desalegnfitsum116-art/UnitStudio.git
-cd UnitStudio
+git clone https://github.com/desalegnfitsum116-art/Volt.git
+cd Volt
 
 # Run the compiler directly
 python voltc.py path/to/your_program.volt
